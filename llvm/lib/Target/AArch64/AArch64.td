@@ -1373,6 +1373,7 @@ def TuneAmpere1A : SubtargetFeature<"ampere1a", "ARMProcFamily", "Ampere1A",
                                     FeatureCmpBccFusion,
                                     FeatureFuseAddress,
                                     FeatureFuseLiterals,
+                                    FeatureFuseAddSub2RegAndConstOne,
                                     FeatureStorePairSuppress,
                                     FeatureLdpAlignedOnly,
                                     FeatureStpAlignedOnly]>;
